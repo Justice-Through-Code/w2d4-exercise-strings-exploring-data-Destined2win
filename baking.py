@@ -49,7 +49,7 @@ def confirm_ingredients():  # String methods
     # print the string in the `ingredients` variable in all-caps now that it's right.
     print(ingredients.upper())
     
-#confirm_ingredients()
+    confirm_ingredients()
 
 
 def favorite_bake():  # User Input/Type conversion
