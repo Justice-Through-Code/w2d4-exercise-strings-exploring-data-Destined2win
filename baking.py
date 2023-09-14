@@ -42,14 +42,15 @@ def confirm_ingredients():  # String methods
     # Hmm, when we use a string method in a print statement, does it change the string in our variable?
     # 2.3 Use a string method to count the number of times that 'milk' appears in our string.
     # Print this number out.
-    ingredients = ingredients.count('milk')
+    count_milk = ingredients.count('milk')
     
     # 2.4 Let's print out our `ingredients` variable again just to be sure.
-    print(ingredients)
+    print(count_milk)
 
     # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
     # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
-    ingredients = ingredients.replace(ingredient_1, 'milk')
+    ingredients = ingredients.replace('milk', 'butter')
+    # ingredients = ingredients.replace(ingredient_1, 'milk')
     # 2.6 Print `ingredients` to make sure the change stuck this time.
     print(ingredients)
     # 2.7 That looks better. Let's make it official: use another string method to 
