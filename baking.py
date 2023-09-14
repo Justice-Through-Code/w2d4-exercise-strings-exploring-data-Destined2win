@@ -25,7 +25,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f'{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}')
-#print_ingredients()
+print_ingredients()
 
 
 def confirm_ingredients():  # String methods
@@ -56,7 +56,7 @@ def confirm_ingredients():  # String methods
     # print the string in the `ingredients` variable in all-caps now that it's right.
     print(ingredients.upper())
 
-#confirm_ingredients()
+confirm_ingredients()
 
 
 def favorite_bake():  # User Input/Type conversion
@@ -86,4 +86,4 @@ def favorite_bake():  # User Input/Type conversion
 
 
 
-#favorite_bake()
+favorite_bake()
