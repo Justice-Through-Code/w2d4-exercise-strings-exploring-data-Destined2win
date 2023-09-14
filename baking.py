@@ -45,7 +45,7 @@ def confirm_ingredients():  # String methods
     count_milk = ingredients.count('milk')
     
     # 2.4 Let's print out our `ingredients` variable again just to be sure.
-    print(count_milk)
+    print(ingredients)
 
     # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
     # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
