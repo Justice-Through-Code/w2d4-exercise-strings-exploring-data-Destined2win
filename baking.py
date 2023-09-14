@@ -12,7 +12,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # Those are the right ingredients, aren't they? Let's print them out a few different ways to check
 
     # 1.1 Using one print statement, print out the ingredients as 4 separate strings
- for _ in range(3):
+    
     print(ingredient_1)
     print(ingredient_2)
     print(ingredient_3)
@@ -49,7 +49,7 @@ def confirm_ingredients():  # String methods
 
     # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
     # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
-    ingredients = ingredients.replace(ingredient_1, 'butter')
+    ingredients = ingredients.replace(ingredient_1, 'milk')
     # 2.6 Print `ingredients` to make sure the change stuck this time.
     print(ingredients)
     # 2.7 That looks better. Let's make it official: use another string method to 
