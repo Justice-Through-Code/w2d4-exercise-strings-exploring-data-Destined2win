@@ -34,7 +34,7 @@ def confirm_ingredients():  # String methods
 
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
-    ingredients = ingredients.replace('milk', 'butter')
+    ingredients = ingredient_1.replace('milk', 'butter')
     print(ingredients)
 
 
