@@ -13,10 +13,10 @@ def print_ingredients():  # Ways to work with strings/printing
 
     # 1.1 Using one print statement, print out the ingredients as 4 separate strings
     
-    print(ingredient_1)
-    print(ingredient_2)
-    print(ingredient_3)
-    print(ingredient_4)
+    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
+    # print(ingredient_2)
+    # print(ingredient_3)
+    # print(ingredient_4)
 
     # 1.2 Using one print statement, use string concatenation to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
@@ -25,7 +25,7 @@ def print_ingredients():  # Ways to work with strings/printing
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
     print(f'{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}')
-print_ingredients()
+# print_ingredients()
 
 
 def confirm_ingredients():  # String methods
@@ -35,17 +35,17 @@ def confirm_ingredients():  # String methods
 
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
-    ingredients = ingredients.replace('milk', 'butter')
-    print(ingredients)
+    print(ingredients.replace('milk', 'butter'))
+    
 
 
     # Hmm, when we use a string method in a print statement, does it change the string in our variable?
     # 2.3 Use a string method to count the number of times that 'milk' appears in our string.
     # Print this number out.
-    milk_count = ingredients.count('milk')
+    print(ingredients.count('milk')) 
     
     # 2.4 Let's print out our `ingredients` variable again just to be sure.
-    print(milk_count)
+    print(ingredients)
 
     # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
     # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
@@ -57,7 +57,7 @@ def confirm_ingredients():  # String methods
     # print the string in the `ingredients` variable in all-caps now that it's right.
     print(ingredients.upper())
 
-confirm_ingredients()
+# confirm_ingredients()
 
 
 def favorite_bake():  # User Input/Type conversion
@@ -70,7 +70,7 @@ def favorite_bake():  # User Input/Type conversion
 
     # 3.2 Create a second variable called `frequency` that asks the user:
     # Roughly how many times a month do you eat <baked_good>s? <-- use your `baked_good` variable in an f-string here
-    frequency = int(input(f'Roughly how many times a month do you eat {baked_good}? '))
+    frequency = (input(f'Roughly how many times a month do you eat {baked_good}? '))
 
     # When the user inputs a number, what data type is it saved as?
     # 3.3 Print out the _type_ of the `frequency` variable to check.
@@ -82,9 +82,9 @@ def favorite_bake():  # User Input/Type conversion
     # Use `type conversion` to fix the second one
 
     print(f'Ooooh, {baked_good}s are delicious!')
-    print(f'We recommend you eat {baked_good}s at least {str(frequency * 2)} times a month!')
+    print(f'We recommend you eat {baked_good}s at least {int(frequency) * 2} times a month!')
 
 
 
 
-favorite_bake()
+# favorite_bake()
